@@ -1,3 +1,4 @@
+//Task_1
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,6 +18,116 @@
     </script>
 </head>
 <body>
+    <br><br>
+</body>
+</html></html>
+
+//Task__2
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <script >
+        
     
+        var BankingApp = {
+            bal:0,
+            OAmount : 30000,
+            WAmount : 20000,
+            DAmount : 5000,
+            OpenAccount : function()
+            {          
+                     this.bal=BankingApp.OAmount;
+                    document.write("Your Account is open your Balence Amonut is = "+BankingApp.OAmount);
+                    document.write("<br>");
+                    document.write("<br>");
+            }
+            
+        };
+        
+       BankingApp.OpenAccount();
+      
+        BankingApp.Withdrowal = function()
+        {    
+            if(BankingApp.WAmount < BankingApp.bal){
+                BankingApp.bal=BankingApp.bal-BankingApp.WAmount;
+            document.write("Withdraw Amount ="+BankingApp.WAmount +" &emsp; Remain Balence ="+BankingApp.bal+"<br>");
+            document.write("<br>");
+        }
+            else{
+                document.write("You dont have Enough Balance in you Account Sorry");
+            }
+        }
+        BankingApp.Withdrowal();
+        BankingApp.Deposit = function()
+        {           
+            BankingApp.bal= BankingApp.bal+BankingApp.DAmount;
+                document.write("Deposit Amount = "+BankingApp.DAmount+" &emsp;&emsp;&nbsp;Total Balance="+BankingApp.bal);
+                document.write("<br>");
+        }
+        BankingApp.Deposit();
+
+        
+   </script>
+</head>
+<body>
+  <br><br>
+</body>
+</html></html>
+
+//Task__3
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script >
+        
+        function Remv(arr,i)
+        {
+            document.write(arr+"<br>");
+            arr.splice(i,1);
+            document.write(arr);
+        }
+        
+    </script>
+</head>
+<body>
+    <script>
+        var Arr=[9,87,65,4,43,32,3];
+        var index=3;
+        Remv(Arr,index)
+    </script>
+</body>
+</html></html>
+
+//Task__4
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script >
+      
+           for(var i=1;i<=10;i++){
+            
+            for(var j=i;j<=10;j++){
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+        for(var i=2;i<=10;i++){
+            
+            for(var j=1;j<=i;j++){
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+    </script>
+</head>
+<body>
+    
+           
 </body>
 </html></html>
