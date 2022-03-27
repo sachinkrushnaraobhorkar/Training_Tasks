@@ -1,4 +1,13 @@
 MX-Player_Training
+Task 5 = Routing in Angular
+![Screenshot (572)](https://user-images.githubusercontent.com/101672721/160297295-500f23dc-d927-4224-b6cd-48226b8a697a.png)
+![Screenshot (571)](https://user-images.githubusercontent.com/101672721/160297308-e6ff1cd0-f05d-41fe-a332-cedf39767328.png)
+![Screenshot (573)](https://user-images.githubusercontent.com/101672721/160297312-d8002e2b-e7a2-4e8f-a34f-c3fd0ba3698e.png)
+![Screenshot (570)](https://user-images.githubusercontent.com/101672721/160297318-955c9022-a2bd-4742-99d2-2304711c4ee7.png)
+
+
+
+--------------------------------------------------------------------
 Week-1 Assignments Uploaded
 
 Out_put
