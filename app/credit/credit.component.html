@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3"> </div>
+
+        <div class="col-lg-6">
+            <div class="desing">
+                <h1 class="text-center"> Cradit Card</h1>
+           
+
+                    <div class="row ">  </div>
+                    <br>
+                    <label>Salary</label>
+                    <input type="number" class="form-control" [(ngModel)]="sal" name="sal"
+                        placeholder="Entre Your Salary ">
+                   <br>
+                   <p class="T-3">Your Issue card is <strong>{{card}}</strong></p>       
+            </div> 
+
+        </div>
+    
+        <div class="col-lg-3"> </div>
+        <div class="col-lg-3"> </div>
+        <div class="col-lg-3"> 
+           <button name="submit" value="Check" (click)="check()" class="btn- btn-primary  btn-block btn-lg">Check</button>
+        </div>
+        
+    </div>
+</div>

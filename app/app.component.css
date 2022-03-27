@@ -1,0 +1,35 @@
+.navbar {
+    z-index: 1;
+}
+.h-l{
+    float: left;
+}
+ul{
+    list-style: none;
+
+}
+strong{
+    font-size: 30px;
+}
+li{
+    display: inline-block;
+    padding: 3px 3px;
+    background-color: #00bcd4;
+    margin: auto 8px;
+    opacity: 0.8;
+    cursor:pointer; 
+    box-shadow: 1px 1px 5px 1px rgba(204, 204,204, alpha);
+    border: 1px solid #eaeaea;
+    border-radius: 20px;
+    
+}
+li:hover
+{
+
+  opacity: 1;
+    color: orange  ;
+
+}
+li a{
+    color: white;
+}

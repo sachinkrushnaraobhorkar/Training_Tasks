@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3"> </div>
+
+        <div class="col-lg-6">
+            <div class="desing">
+                <h1 class="text-center">EMI Calculator </h1>
+           
+
+                    <div class="row ">  </div>
+                    <br>
+                    <label>Amount</label>
+                    <input type="number" class="form-control" [(ngModel)]="amount" name="amount"
+                        placeholder="Entre Your Loan Amount">
+                   
+                    <br>
+                    <label>Rate of Interest</label>
+                    <input type="number" class="form-control" [(ngModel)]="roi" name="roi"
+                        placeholder="Entre Rate Of Interest">
+                    
+                    <br>
+                    <label>Tenure</label>
+                    <input type="number" class="form-control" [(ngModel)]="tenure" name="tenure"
+                        placeholder="Entre Tenure in (Years)">
+                    <br>
+                   
+            </div> 
+
+        </div>
+        <div class="col-lg-3"> <p class="T-3">Total Amount You Have To Pay <strong>{{totalA}}</strong></p></div>
+        <div class="col-lg-3" >   <button name="submit" value="submit" (click)="getData()" class="btn- btn-primary  btn-block btn-lg">submit</button></div>
+        
+    </div>
+</div>

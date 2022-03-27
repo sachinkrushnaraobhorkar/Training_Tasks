@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6" id="m-3">
+            <h1 class="text-center">Banking Transaction </h1>
+            <br>
+            <div class="con">
+               
+            <label>Amount :</label>
+            <input type="number" style="margin-left: 38px;" class="form-controal" name="createacc" [(ngModel)]="CreateAcc"
+                placeholder="Enter Amount for creating Bank Accounts " >
+            <br><br>
+            <button class="btn- btn-primary " (click)="Create()" id="btn-1">Create</button><br>
+            <label>
+                <p>Total Amount : <strong>{{CreateAcc}}</strong></p>
+            </label>
+            <br> <label>Enter Amount :</label>
+            <input type="number" class="form-controal" name="DWamount" [(ngModel)]="DWamount"
+                placeholder="For withdrow OR Deposit Amount">
+            
+            <br><br>
+            <button (click)="Withdrow()" class="btn- btn-primary" id="btn-2">Withdrow</button>
+            <button (click)="Deposit()" class="btn- btn-primary" id="btn-3">Deposit</button>
+        </div>
+        </div>
+       
+
+
+    </div>
+</div>
